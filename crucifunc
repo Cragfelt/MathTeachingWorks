@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[top=3cm]{geometry}
+\usepackage{amsmath,amsthm,amssymb,latexsym}
+\usepackage[unboxed]{cwpuzzle}
+\usepackage{multicol}
+
+\input mycom.tex
+
+%%%%%%%% CONCEPTOS TEORÍA ELEMENTAL DE FUNCIONES
+
+\begin{document}
+
+\bc {\LARGE\bfseries Conceptos básicos sobre Funciones} \ec
+\vs
+
+%\PuzzleSolution 
+\begin{Puzzle}{19}{18}
+|{*}    |[19]I  |N      |T      |[18]E  |R     |S   |E     |C   |C    |I    |O     |N    |{*}   |[1]G |{*}  |[2]A   |{*}  |.
+|{*}    |{*}    |{*}    |{*}    |J      |{*}   |{*} |{*}   |{*} |{*}  |{*}  |{*}   |{*}  |{*}   |R    |{*}  |B      |{*}  |.
+|[7]C   |O      |R      |R      |E      |S     |P   |O     |N   |D    |E    |N     |C    |I     |A    |{*}  |S      |{*}  |.
+|{*}    |{*}    |{*}    |{*}    |{*}    |{*}   |{*} |{*}   |{*} |{*}  |{*}  |{*}   |{*}  |{*}   |F    |{*}  |C      |{*}  |.
+|{*}    |{*}    |{*}    |{*}    |{*}    |[3]F  |{*} |[4]P  |{*} |[9]C |O    |[5]D  |O    |M     |I    |N    |I      |O    |.
+|{*}    |{*}    |{*}    |{*}    |{*}    |U     |{*} |R     |{*} |{*}  |{*}  |O     |{*}  |{*}   |C    |{*}  |S      |{*}  |.
+|{*}    |{*}    |{*}    |[13]O  |{*}    |N     |{*} |E     |{*} |[6]D |{*}  |M     |{*}  |{*}   |A    |{*}  |A      |{*}  |.
+|{*}    |{*}    |{*}    |R      |{*}    |[10]C |R   |I     |T   |E    |R    |I     |O    |{*}   |{*}  |{*}  |{*}    |{*}  |.
+|{*}    |[8]G   |{*}    |D      |{*}    |I     |{*} |M     |{*} |P    |{*}  |N     |{*}  |[14]C |{*}  |{*}  |{*}    |{*}  |.
+|{*}    |R      |{*}    |E      |{*}    |O     |{*} |A     |{*} |E    |{*}  |[11]I |M    |A     |G    |E    |N      |{*}  |.
+|{*}    |A      |{*}    |N      |{*}    |N     |{*} |G     |{*} |N    |{*}  |O     |{*}  |R     |{*}  |{*}  |{*}    |{*}  |.
+|{*}    |F      |{*}    |A      |{*}    |{*}   |{*} |E     |{*} |D    |{*}  |{*}   |{*}  |T     |{*}  |{*}  |{*}    |{*}  |.
+|{*}    |[12]I  |N      |D      |E      |P     |E   |N     |D   |I    |E    |N     |T    |E     |{*}  |{*}  |[21]P  |{*}  |.
+|{*}    |C      |{*}    |A      |{*}    |{*}   |{*} |{*}   |{*} |E    |{*}  |{*}   |{*}  |S     |{*}  |{*}  |U      |{*}  |.
+|{*}    |O      |{*}    |{*}    |{*}    |[20]P |{*} |{*}   |{*} |N    |{*}  |[16]O |R    |I     |G    |E    |N      |{*}  |.
+|{*}    |{*}    |{*}    |{*}    |{*}    |[15]A |M   |B     |I   |T    |O    |{*}   |{*}  |A     |{*}  |{*}  |T      |{*}  |.
+|{*}    |{*}    |{*}    |{*}    |{*}    |R     |{*} |{*}   |{*} |E    |{*}  |[17]V |E    |N     |N    |{*}  |O      |{*}  |.
+|{*}    |{*}    |{*}    |{*}    |{*}    |{*}   |{*} |{*}   |{*} |{*}  |{*}  |{*}   |{*}  |O     |{*}  |{*}  |{*}    |{*}  |.
+\end{Puzzle}
+
+
+\begin{multicols}{2}
+\begin{minipage}{6cm}
+\begin{PuzzleClues}{\textbf{Horizontal}}
+\Clue{7}{CORRESPONDENCIA}{Asignación de elementos entre dos conjuntos}
+\Clue{9}{CODOMINIO}{Conjunto de llegada}
+\Clue{10}{CRITERIO}{Ecuación, fórmula o regla de correspondencia algebraica}
+\Clue{11}{IMAGEN}{Elemento del rango de una función}
+\Clue{12}{INDEPENDIENTE}{La variable $X$}
+\Clue{15}{ÁMBITO}{Conjunto de las imágenes}
+\Clue{16}{ORIGEN}{El par ordenado $(0,0)$}
+\Clue{17}{VENN}{Nombre del diagrama para representar una función}
+\Clue{19}{INTERSECCIÓN}{Punto donde la gráfica cruza con alguno de los ejes coordenados}
+\end{PuzzleClues}
+\end{minipage}
+
+\begin{minipage}{6cm}
+\begin{PuzzleClues}{\textbf{Vertical}}
+\Clue{1}{GRÁFICA}{Representación geométrica de una relación}
+\Clue{2}{ABSCISA}{Coordenada en el eje $X$}
+\Clue{3}{FUNCIÓN}{Relación entre conjuntos donde a cada elemento de $X$ se le asigna un elemento de Y}
+\Clue{4}{PREIMAGEN}{Cada uno de los elementos del Dominio}
+\Clue{5}{DOMINIO}{Conjunto de las preimágenes}
+\Clue{6}{DEPENDIENTE}{La variable $y=f(x)$}
+\Clue{8}{GRÁFICO}{Conjunto de los pares ordenados}
+\Clue{13}{ORDENADA}{Coordenada en el eje $Y$}
+\Clue{14}{CARTESIANO}{Sistema donde se representan gráficamente las funciones}
+\Clue{18}{EJE}{Cada una de las rectas en el Sistema de coordenadas}
+\Clue{20}{PAR}{$\comp$ ordenado. Números que representan las coordenadas de un punto}
+\Clue{21}{PUNTO}{Lugar geométrico que determina unn par ordenado en el plano}
+\end{PuzzleClues}
+\end{minipage}
+\end{multicols}
+
+
+\end{document}
