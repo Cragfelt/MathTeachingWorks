@@ -1,0 +1,80 @@
+%Math Mode Comands
+\newcommand{\dis}{\displaystyle}
+\newcommand{\bm}{\boldmath}
+\newcommand{\degre}{\ensuremath{^\circ}}
+
+%Environments
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\benu}{\begin{enumerate}}
+\newcommand{\eenu}{\end{enumerate}}
+\newcommand{\bq}{\begin{equation}}
+\newcommand{\eq}{\end{equation}}
+\newcommand{\fn}{\footnote}
+\newcommand{\fnt}{\footnotetext}
+
+\newtheorem{defi}{Definición}
+
+%Brackets & bracers
+\newcommand{\iz}{ \left\{ }
+\newcommand{\der}{ \right\} }
+\newcommand{\izp}{ \left( }
+\newcommand{\derp}{ \right) }
+\newcommand{\cord}{ \,]\, }
+\newcommand{\cori}{ \,[\, }
+
+%Interval Notation
+\newcommand{\intsai}[2]{\cord #1,#2\cord}
+\newcommand{\intsad}[2]{\cori #1,#2\cori}
+\newcommand{\intc}[2]{\cori #1,#2\cord}
+\newcommand{\inta}[2]{\cord #1,#2\cori}
+
+%Arrows
+\newcommand{\imp}{\implies}
+\newcommand{\sii}{\Leftrightarrow}
+\newcommand{\lra}{\longrightarrow}
+\newcommand{\hra}{\hookrightarrow}
+
+%Math Functions
+\newcommand{\limite}[3]{\lim_{ #1 \rightarrow #2} #3}
+\newcommand{\sen}{\mathop{\rm sen}\nolimits}
+\newcommand{\arcsen}{\mathop{\rm arcsen}\nolimits}
+\newcommand{\arcsec}{\mathop{\rm arcsec}\nolimits}
+\newcommand{\arccot}{\mathop{\rm arccot}\nolimits}
+\newcommand{\arccsc}{\mathop{\rm arccsc}\nolimits}
+\newcommand{\senh}{\mathop{\rm senh}\nolimits}
+\newcommand{\sech}{\mathop{\rm sech}\nolimits}
+\newcommand{\csch}{\mathop{\rm csch}\nolimits}
+\newcommand{\arccoth}{\mathop{\rm arccoth}\nolimits}
+\newcommand{\arccosh}{\mathop{\rm arccosh}\nolimits}
+\newcommand{\abs}[1]{\left\lvert\,\strut#1\,\right\rvert}
+\newcommand{\nc}[2]{\dis {#1}\times 10^{#2}}
+
+%Personal Text commands
+\newcommand{\opc}{$(\quad)$\quad}                   %Multiple choice option
+\newcommand{\fv}[1]{\fbox{\quad\strut #1\quad}}     %Special fbox1
+\newcommand{\fvv}[1]{\fbox{\qquad\strut#1\qquad}}   %Special fbox2
+\newcommand{\comp}[2]{#1\rule{25pt}{0.4pt}\;#2}     %Short line between 2 statements
+%\newcommand{\cmd}[1]{\texttt{\detokenize{#1}}$\longrightarrow #1$}  %Macro that prints latex command and its symbol (in a box)
+\newcommand{\cmdc}[1]{\fvc{\texttt{\detokenize{#1}}$\longrightarrow #1$}} %Macro that prints latex command and its symbol (in a gray box, no border)
+\newcommand{\fvc}[1]{\fcolorbox{white}{gray!10!}{\quad\strut #1\quad}}
+\newcommand{\grt}[1]{\fcolorbox{tsebg!3!}{vlgray}{\texttt{\detokenize{#1}}}} %Gray box for code TEXSE-like
+\newcommand{\resp}[1]{\fv{{\bf R/}\;#1.}}
+\newcommand{\col}{$\subset\hspace{-3.5mm}/\hspace{-1mm}/$}
+\newcommand{\ej}{$\diamond\diamond\diamond\diamond\diamond\diamond\diamond$}
+
+%Spaces
+\newcommand{\vs}{\vspace{5mm}}
+\newcommand{\vp}{\vspace{3mm}}
+\newcommand{\vf}{\vspace{1.5mm}}
+
+%Sets
+\newcommand{\id}{1\!\!l}                %Id operator
+\newcommand{\R}{{\bf I\!R}}             %IR set
+\newcommand{\I}{{\bf I\!I}}             %Irrationals set
+\newcommand{\Pri}{{\bf I\!P}}           %Primes set
+\newcommand{\N}{{\bf I\!N}}             %Naturals set
+\newcommand{\C}{{\bf C\!\!\!\!I}}   %Complex set
+%\newcommand{\Q}{{\bf Q\!\!\!\!I\,\,}}
+\newcommand{\Q}{{\bf Q\!\!\!\!\mathbb{I}\,\,}}%Rationals set
+\newcommand{\Z}{{\bf Z\!\!Z}}       %integers set
